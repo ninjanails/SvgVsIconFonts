@@ -23,6 +23,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pig:after {
+	content: "\e600";
+}
+.icon-pig2:before {
+	content: "\e601";
+}
 .icon-home:before {
 	content: "\e900";
 	padding-right: 5px;
@@ -46,6 +52,10 @@
 }
 .icon-github:before {
 	content: "\eab1";
+}
+
+.icon-pig:after {
+	font-size: 50px;
 }
 
 .nav {
