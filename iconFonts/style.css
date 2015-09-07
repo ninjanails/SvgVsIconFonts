@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?jyo7wm');
+	src:url('fonts/icomoon.eot?#iefixjyo7wm') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?jyo7wm') format('truetype'),
+		url('fonts/icomoon.woff?jyo7wm') format('woff'),
+		url('fonts/icomoon.svg?jyo7wm#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e900";
+	padding-right: 5px;
+}
+.icon-newspaper:before {
+	content: "\e904";
+	padding-right: 5px;
+}
+.icon-search:before {
+	content: "\e986";
+	padding-right: 5px;
+}
+.icon-facebook:before {
+	content: "\ea8d";
+}
+.icon-twitter:before {
+	content: "\ea91";
+}
+.icon-lanyrd:before {
+	content: "\ea9f";
+}
+.icon-github:before {
+	content: "\eab1";
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.footer-icons {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 5px;
+	padding-right: 5px;
+	overflow: hidden;
+	background-color: #e5e5e5;
+	font-size: 20px;
+	text-align: center;
+}
+
+li {
+    float: left;
+    padding-right: 10px
+}
+
+a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+
+h1, h2 {
+	font-family: arial;
+}
+
+.page-title {
+	background-color: #ffa7b6;
+}
+
+.main-text {
+	font-size: 17px;
+	font-family: arial;
+}
